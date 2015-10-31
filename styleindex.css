@@ -1,0 +1,41 @@
+body {
+	background: #E6E6E6;
+}
+
+.wrapper {
+	width: 720px;
+	margin: 0 auto;
+}
+
+.contentspisok {
+	float: left;
+}
+
+.contentform {
+	float: right;
+	font-weight: bold;
+	font-size: 108%;
+}
+
+.contentspisok select {
+	background: black;
+	color: white;
+	width: 334px;
+	font-size: 108%;
+} 
+.h1 {
+	text-align: center;
+}
+.contentform input {
+	background: black;
+	color: white;
+	font-weight: bold;
+	font-size: 105%;
+	height: 28px
+} 
+.gruppa select {
+	width: 165px;
+	height: 30px;
+	font-weight: bold;
+	font-size: 83%;
+}
