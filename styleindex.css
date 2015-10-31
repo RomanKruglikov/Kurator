@@ -3,7 +3,7 @@ body {
 }
 
 .wrapper {
-	width: 720px;
+	width: 700px;
 	margin: 0 auto;
 }
 
@@ -21,7 +21,7 @@ body {
 	background: black;
 	color: white;
 	width: 334px;
-	font-size: 108%;
+	font-size: 106%;
 } 
 .h1 {
 	text-align: center;
