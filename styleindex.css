@@ -1,41 +1,58 @@
 body {
-	background: #E6E6E6;
+	background: #D4D1D1;
 }
 
 .wrapper {
-	width: 300px;
+	width: 680px;
 	margin: 0 auto;
+}
+
+.h1 {
+	text-align: center;
+}
+
+.gruppa select{
+	width: 160px;
+	height: 30px;
+	font-weight: bold;
+	font-size: 13px;
 }
 
 .contentspisok {
 	float: left;
 }
 
-.contentform {
-	float: right;
-	font-weight: bold;
-	font-size: 108%;
-}
-
 .contentspisok select {
 	background: black;
 	color: white;
-	width: 334px;
-	font-size: 106%;
+	width: 323px;
+	font-size: 19px;
 } 
-.h1 {
-	text-align: center;
+
+.contentspisok option:hover {
+	background: white;
+	color: darkred;
 }
-.contentform input {
+
+.contentform {
+	float: right;
+	font-weight: bold;
+}
+
+input {
 	background: black;
 	color: white;
 	font-weight: bold;
-	font-size: 105%;
-	height: 28px
+	font-size: 18px;
 } 
-.gruppa select {
-	width: 165px;
-	height: 30px;
-	font-weight: bold;
-	font-size: 83%;
+p {
+	display: inline-block;
+	line-height: 0px;
+	font-size: 20px;
 }
+hr {
+	list-style-type: none;
+	font-size: 17px;
+	float: center;
+}
+
