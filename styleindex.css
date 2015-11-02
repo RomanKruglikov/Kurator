@@ -26,12 +26,12 @@ body {
 	background: black;
 	color: white;
 	width: 365px;
-	font-size: 19px;
+	font-size: 18px;
 } 
 
 .contentspisok option:hover {
 	background: white;
-	color: darkgreen;
+	color: #393B0B;
 }
 
 .contentform {
@@ -43,16 +43,13 @@ input {
 	background: black;
 	color: white;
 	font-weight: bold;
-	font-size: 18px;
+	font-size: 17px;
 } 
+
 p {
 	display: inline-block;
 	line-height: 0px;
 	font-size: 20px;
 }
-hr {
-	list-style-type: none;
-	font-size: 17px;
-	float: center;
-}
+
 
