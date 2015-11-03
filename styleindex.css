@@ -31,7 +31,7 @@ body {
 
 .contentspisok option:hover {
 	background: white;
-	color: #393B0B;
+	color: #181407;
 }
 
 .contentform {
@@ -51,5 +51,3 @@ p {
 	line-height: 0px;
 	font-size: 20px;
 }
-
-
