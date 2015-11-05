@@ -5,6 +5,7 @@ body {
 	width: 700px;
 	margin: 0 auto;
 }
+
 h1 {
 	text-align: center;
 }
@@ -17,10 +18,12 @@ input {
 	background: black;
 	color: white;
 	font-size: 15px;
+	float: right;
 }
+
 label {
 	font-size: 20px;
-	line-height: 40px;
+	line-height: 45px;
 }
 
 
