@@ -1,29 +1,54 @@
 body {
 	background: #D4D1D1;
 }
-.wrapper{
-	width: 700px;
+
+.wrapper {
+	width: 570px;
 	margin: 0 auto;
+	margin-bottom: 50px;
 }
 
-h1 {
+h1,h2 {
 	text-align: center;
 }
 
-h2 {
-	text-align: center;
+h3 {
+	font-size: 23px;
 }
 
-input {
+.form  {
+	margin-bottom: 1px;
+	overflow: hidden;
+	font-weight: bold;
+}
+
+.form input {
+	width: 250px;
 	background: black;
 	color: white;
-	font-size: 15px;
+
+	height: 18px;
 	float: right;
+	border: 1px solid white;
+	font-weight: bold;
 }
 
 label {
 	font-size: 20px;
-	line-height: 45px;
 }
 
+.submit input {
+	border: 1px solid #848484;
+	background: #010F27;
+	color: white;
+	float:right;
+	margin-top: 12px;
+	width: 155px;
+	height: 25px;
+	font-size: 16px;
+}
 
+.submit input:hover {
+	background: white;
+	color: black;
+}
