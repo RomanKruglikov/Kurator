@@ -3,8 +3,8 @@ body {
 }
 
 .wrapper {
-	width: 725px;
 	margin: 0 auto;
+	width: 725px;
 }
 
 h1 {
@@ -13,25 +13,29 @@ h1 {
 
 .gruppa select{
 	border: 1px solid #393B0B;
-	width: 180px;
-	height: 30px;
-	font-weight: bold;
 	font-size: 15px;
+	font-weight: bold;
+	height: 30px;
+	width: 180px;
 }
 
-.contentspisok {
+.gruppa select:hover{
+	border:2px solid  #04015C;
+}
+
+.contentlist {
 	float: left;
 }
 
-.contentspisok select {
+.contentlist select {
 	background: black;
+	border: 1px solid #C0E0FF;
 	color: white;
-	border: 1px solid #848484;
-	width: 365px;
 	font-size: 18px;
+	width: 365px;
 } 
 
-.contentspisok option:hover {
+.contentlist option:hover {
 	background: white;
 	color: #181407;
 }
@@ -42,12 +46,12 @@ h1 {
 }
 
 input {
-	display: block;
 	background: black;
-	color: white;
 	border: 1px solid #848484;
-	font-weight: bold;
+	color: white;
+	display: block;
 	font-size: 17px;
+	font-weight: bold;
 	margin-bottom: 31px;
 	width: 250px;
 } 
